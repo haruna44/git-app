@@ -12,7 +12,7 @@ class ArticlesController < ApplicationController
   def show
   end
 
-  # GET /articles/new
+  
   def new
     @article = Article.new
   end
